@@ -10,13 +10,13 @@ This project shows a fully working sample to create custom deployment step for A
 3. Restart Application Architect 
 4. In Application Architect, expand the Portal Manager and the select the portal you want to add this to, such as the SlxClient portal
 5. In the Properties grid with the SlxClient portal selected, you'll see a property for DeploymentActionTypes. Click that to bring up the editor
-6. Add your new assebmbly to the list
+6. Add your new assebmbly to the list. In the case of this sample, the "Type Name" value would be "FX.Deployment.SampleDeploymentAction, FX.Deployment"
 7. Deploy and the code will execute as a part of the deployment 
  
  
 **To Create Your Own Deployment Action Provider**
 
-1. Create a new Class Library project in VS, set the framework version to .NET 4.5.2
+1. Create a new Class Library project in Visual Studio, set the framework version to .NET 4.5.2
 2. Add a reference to Sage.Platform.WebPortal.Design.dll in C:\Program Files (x86)\Saleslogix\Platform
 3. Add a reference to Sage.Platform.Deployment.dll in C:\Program Files (x86)\Saleslogix\Platform
 4. Add a reference to Sage.Platform.Projects.dll in C:\Program Files (x86)\Saleslogix\Platform
