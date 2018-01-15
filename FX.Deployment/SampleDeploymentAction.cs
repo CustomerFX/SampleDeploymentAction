@@ -17,7 +17,7 @@ namespace FX.Deployment
 
         public IShadowCopyItem[] GetDeployableItems(PortalBase portal, BackgroundWorker worker)
         {
-            // THIS IS WERE YOU CAN CREATE FILES TO DEPLOY TO THE TARGET FOLDER 
+            // CREATE FILES TO DEPLOY TO THE TARGET FOLDER HERE 
 
             // if you don't want to deploy any files to the target reutrn an empty array
             // return new IShadowCopyItem[0];
